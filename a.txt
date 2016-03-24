@@ -1,1 +1,10 @@
 我今天写了一个日记
+我又加了内容了
+最开的地方我又添加了一个新的懂
+public class Hello{
+	public static void main(String[] args)
+	{
+		System.out.println("我又变成了");
+	}
+
+}
