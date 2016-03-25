@@ -12,8 +12,7 @@ public class ChannalServiceImpl implements ChannalService {
 	@Autowired
 	private IChannalDao channalDao;
 	
-	public Channal qry_loadChannal(Integer id) {
-		
+	public Channal qry_loadChannal(Integer id){
 		return channalDao.getChannalById(id);
 				
 		

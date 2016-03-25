@@ -3,22 +3,35 @@
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.tosit.web.dao.IChannalDao">
 	
-    <resultMap type="Channal" id="channalBean">  
-        <id column="id" property="id"/>  
-        <result column="name" property="name"/>  
+    <resultMap type="com.tosit.web.entity.Channal" id="channalBean">  
+        <id column="channal_id" property="id"/>  
+        <result column="channal_name" property="name"/>  
           
         <!-- 一对多的关系 -->  
         <!-- property: 指的是集合属性的值, ofType：指的是集合中元素的类型 -->  
-        <collection property="channals" ofType="com.tosit.web.entity.Channal">  
-            <id column="id" property="id"/>  
-            <result column="name" property="name"/>  
+        <collection property="channals" ofType="com.tosit.web.entity.Channal" column="channal_child">  
+            <id column="child_id" property="id"/>  
+            <result column="child_name" property="name"/>  
  
         </collection>  
     </resultMap>    
        
    
     <select id="getChannalById" parameterType="int" resultMap="channalBean">  
-        SELECT c.*,t.* FROM channal c,channal t  WHERE  c.id=t.parent_child 
+		SELECT
+		  p.channal_id,
+		  p.channal_name,
+		  p.parent_id,
+		  c.channal_id   AS child_id,
+		  c.channal_name AS child_name
+		FROM channal p
+		  LEFT JOIN channal c
+		    ON p.channal_id = c.parent_id 
+		    WHERE c.parent_id=#{id}
+		ORDER BY p.channal_id ASC
+ 
+
+
     </select>  
 	
 </mapper>

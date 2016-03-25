@@ -30,4 +30,5 @@ public class UserTest {
 		UserService userService = (UserService) application.getBean("userService");
 		System.out.println(userService.qry_login(user));
 	}
+	
 }

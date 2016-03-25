@@ -1,0 +1,396 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Global style====================================================================================================*/
+*{ margin:0; padding:0; border:0}
+body{ float:left; width:100%;height:100%; overflow-x:hidden; display:none;background:#e0d6cd}
+li{ float:left;display: block;list-style-type: none;}
+a{border:none; text-decoration:none;}
+a:hover{ text-decoration:underline}
+img {border:none;margin:0;padding:0;border:0;}
+
+
+/*Page width===============================================*/
+.total{ float:left; height:100%; background:#e0d6cd; z-index:2}
+.picture{ float:left; overflow:hidden;background:#e0d6cd; text-align:center;z-index:1;}
+.picture img{ float:none}
+.w1180{ margin:-257px auto 0 auto; width:1175px;}
+.LJ_width{margin:0 auto; width:1145px;}
+.w1145{margin:-285px auto 0 auto; width:1145px;}
+
+
+/*Lj-head ====================================================*/
+.Lj-head{ float:left; width:1175px; height:260px;}
+.Lj-head .head-left{ float:left; width:363px; height:216px; padding:44px 9px 0 0}
+.Lj-head .head-left a{ float:left;}
+.Lj-head .head-nav{ float:left; width:803px; height:260px}
+.Lj-head .head-top{ float:left; width:803px; height:35px; padding:4px 0 5px 0; position:relative}
+.Lj-head .head-top li{ float:left; width:96px; height:35px; font:14px/35px "微软雅黑"; color:#4e4d4d; text-align:center; background:url(../images/icon_01_01.png) repeat-x; margin-right:4px; cursor:pointer}
+.Lj-head .head-top .dq{ float:left; width:96px; height:39px; margin-top:-4px; background:url(../images/icon_01_03.jpg) repeat-x;font: bold 14px/39px "微软雅黑"; color:#fff;}
+.Lj-head .head-top span.new{ float:left; width:35px; height:23px; position:absolute;top:-10px;left:270px}
+.Lj-head .head-text{ float:left; width:803px; height:216px;}
+.Lj-head .protect{ float:left; width:803px; height:130px; display:none}
+.Lj-head .conduct{float:left; width:803px; height:216px; position:relative}
+.Lj-head .conduct-1{ float:left;left:50%; position:absolute;bottom:5px; z-index:1000}
+.Lj-head .conduct-1 li{ float:left; width:25px;height:25px; background:url(../images/icon_01_33.png) no-repeat}
+.Lj-head .conduct-1 .dq{ background:url(../images/icon_01_33.png) no-repeat 0 -25px}
+.Lj-head .conduct a{ float:left}
+.Lj-head .conduct-text{float:left; width:783px; height:130px; position:absolute; top:42px; left:10px}
+.Lj-head .conduct-text a{ width:105px; height:130px; padding-top:20px;background:url(../images/icon_01_34.png) no-repeat; margin-left:6px; font:bold 14px/30px "微软雅黑"; color:#fff;}
+.Lj-head .conduct-text a:hover{ background:url(../images/icon_01_36.png) no-repeat;color:#ffc600}
+.Lj-head .conduct-text .img{ float:left; width:105px; height:60px; text-align:center}
+.Lj-head .conduct-text span{ float:left; width:105px; height:30px; margin-top:5px; text-align:center;}
+/*Home-Page=====================================================*/
+.Lj-cen{ float:left; width:1159px;margin-top:6px; background:#FFF; padding:8px}
+
+/*left With the share===========================================*/
+.w355{ float:left; width:355px; padding-right:18px}
+.w355 .Lj-cost{ float:left; width:313px; height:394px; border:1px solid #CCC; padding:0 20px 0 20px; margin-bottom:10px}
+.w355 .Lj-cost span,.w355 .Lj-love span{ float:left;}
+.w355 .Lj-cost .Lj-roll{ float:left; width:313px; height:308px; margin-bottom:20px; overflow:hidden}
+.w355 .Lj-cost .Lj-roll li{ float:left; width:313px;}
+.w355 .Lj-cost .Lj-roll a{ float:left; width:285px; font:14px/28px "微软雅黑"; color:#000}
+.w355 .Lj-cost .Lj-roll img{ float:left}
+.w355 .Lj-img{ float:left; width:353px; padding:0 1px 10px 1px}
+.w355 .Lj-img span{ float:left; width:353px; margin-bottom:10px}
+.w355 .Lj-img a{ float:left}
+.w355 .Lj-love{ float:left; width:313px; height:371px; border:1px solid #CCC; padding:0 20px 0 20px}
+.w355 .Lj-trends{ float:left; width:293px; padding:8px 10px 0 10px}
+.w355 .Lj-trends li{ float:left; width:293px; border-bottom:1px solid #CCC; font:14px/20px "微软雅黑"; color:#7b7b7b; padding:20px 0 20px 0}
+.w355 .Lj-trends a{ float:left;font:14px/20px "微软雅黑"; color:#7b7b7b;}
+.w355 .Lj-advert{ float:left; width:353px; padding:2px 1px 0 1px;}
+.w355 .Lj-advert a{ float:left; width:353px; margin-top:10px}
+
+/*Page-footer====================================================*/
+.Lj-footer{ float:left; width:1175px; height:290px; background:url(../images/icon_01_32.jpg) no-repeat 115px 90px}
+.Lj-footer .footer-top{ float:left; width:1175px; height:20px;font:14px/20px "微软雅黑"; color:#666; text-align:center; padding:25px 0 25px 0}
+.Lj-footer .footer-top a{ float:none; font:14px/20px "微软雅黑"; color:#666; padding:0 15px 0 15px}
+.Lj-footer .footer-text{ float:left; width:865px; padding:25px 0 0 310px}
+.Lj-footer .footer-in{ float:left; width:530px; text-align:center; font:16px/30px "微软雅黑"; color:#666}
+.Lj-footer .footer-img{ float:left; margin-left:40px;width:163px;}
+.Lj-footer .footer-img img{ float:left;margin-right:6px}
+
+
+/*Home-right ====================================================*/
+.w786{ float:left; width:786px;}
+.w786 .roll-top{ float:left; width:786px; height:27px; padding-bottom:5px; background:url(../images/icon_01_39.jpg) no-repeat top}
+.w786 .roll-top span{ float:left; font:14px/27px "微软雅黑"; color:#7b7b7b; margin-left:40px}
+.w786 .roll-top a{ float:right; font:14px/27px "微软雅黑"; color:#7b7b7b; margin-right:5px}
+.w786 .Lj-news{ float:left; width:786px; padding-bottom:10px; color:#000}
+.w786 .Lj-news .news{ float:left; width:404px;height:265px; padding-top:10px}
+.w786 .Lj-news .news li{ float:left; width:404px; font: bold 16px/33px "微软雅黑";}
+.w786 .Lj-news .news img{ float:left}
+.w786 .Lj-news .news a{ float:left; width:385px;font:16px/33px "微软雅黑";color:#000}
+.w786 .Lj-news .news-flash{ float:left; width:370px; height:262px; padding:13px 0 0 12px}
+.w786 .Lj-news .news-pad{ float:left; width:360px; height:245px; padding:5px; background:#e9e0cf;}
+.w786 .Lj-news .advert{ float:left; width:786px;height:85px; padding-top:4px}
+
+
+.w786 .Lj-manage{ float:left; width:784px; height:476px; border:1px solid #CCC; margin-bottom:10px}
+.w786 .manage-top{ float:left; width:766px; height:36px; background:url(../images/icon_01_24.jpg) repeat-x; padding-left:18px}
+.w786 .manage-top ul{ float:left; height:33px; padding-top:3px}
+.w786 .manage-top li{ float:left; width:85px; height:33px; background:url(../images/icon_01_26.jpg) no-repeat; font: bold 14px/33px "微软雅黑"; color:#046526; text-align:center; cursor:pointer}
+.w786 .manage-top .tab1{ background:url(../images/icon_01_25.jpg) no-repeat}
+.w786 .manage-more{ float:right;}
+.w786 .manage-more span{ float:left; padding-right:20px; font: bold 16px/33px "微软雅黑"; color:#fff;letter-spacing:2px}
+.w786 .manage-more a{ float:left;font:14px/33px "微软雅黑"; color:#fff; margin-right:30px}
+.w786 .manage-text{ float:left; width:784px; height:400px; background:#f6fbf7; padding-top:25px}
+.w786 .manage-text ul{ float:left; width:362px; margin-left:30px}
+.w786 .manage-text li{ float:left; width:362px;}
+.w786 .manage-text a{ float:left; width:343px;font:14px/28px "微软雅黑"; color:#000}
+.w786 .manage-text img{ float:left}
+
+
+.w786 .Lj-open{ float:left; width:786px; height:290px; margin-bottom:6px}
+.w786 .Lj-open .open-title{ float:left; width:312px; position:relative;}
+.w786 .Lj-open .open-title span{ float:left; width:312px; height:107px; position:absolute; top:-2px; left:-3px;}
+.w786 .Lj-open .open-title div{ float:left; width:312px; height:40px; position:absolute; left:0px; bottom:0px;font: bold 14px/40px "微软雅黑"; color:#FFF; text-align:center; background:url(../images/icon_01_28.png) repeat-x;}
+.w786 .Lj-open .open-two{ float:left; width:284px}
+.w786 .Lj-open .open-cen{ float:left; width:271px; height:172px; position:relative; margin:0 0 4px 6px}
+.w786 .Lj-open .open-cen span{ float:left;width:271px;position:absolute; left:0px; bottom:0px;font: bold 14px/40px "微软雅黑"; color:#FFF; text-align:center; background:url(../images/icon_01_28.png) repeat-x;}
+.w786 .Lj-open .open-m{ float:left; width:135px; height:114px; position:relative; margin-left:4px}
+.w786 .Lj-open .open-m span{ float:left; width:135px;position:absolute; left:0px; bottom:0px;font: bold 14px/40px "微软雅黑"; color:#FFF; text-align:center; background:url(../images/icon_01_28.png) repeat-x;}
+.w786 .Lj-open .open-r{ float:left; width:190px; position:relative;}
+.w786 .Lj-open .open-r span{ float:left; width:190px;position:absolute; left:0px; bottom:0px;font: bold 14px/40px "微软雅黑"; color:#FFF; text-align:center; background:url(../images/icon_01_28.png) repeat-x;}
+
+.w786 .Lj-conncet{ float:left; width:784px; height:50px; padding:12px 0 12px 0; border:1px solid #CCC; background:#f9f6f1; margin-bottom:12px}
+.w786 .Lj-conncet li{ float:left; width:784px; height:25px}
+.w786 .Lj-conncet a{ float:left;font: bold 14px/25px "微软雅黑"; color:#000}
+.w786 .Lj-conncet li.conncet-1 a{margin:0 24px 0 20px;}
+.w786 .Lj-conncet li.conncet-2 a{margin:0 15px 0 20px;}
+.w786 .Lj-conncet img{ float:left}
+
+.w786 .Lj-culture{ float:left; width:784px; background:#f5f5f5; border:1px solid #CCC; margin-bottom:12px}
+.w786 .culture-top{ float:left; width:766px; height:36px; background:url(../images/icon_01_30.jpg) repeat-x; padding-left:18px}
+.w786 .culture-top ul{ float:left; height:33px; padding-top:2px}
+.w786 .culture-top li{ float:left; width:85px; height:33px; background:url(../images/icon_01_35.jpg) no-repeat; font: bold 14px/33px "微软雅黑"; color:#462a01; text-align:center; cursor:pointer;}
+.w786 .culture-top .bd1{ background:url(../images/icon_01_31.jpg) no-repeat}
+.w786 .culture-text{ float:left; width:784px; height:325px;}
+.w786 .culture-text li{ float:left; width:325px; height:70px; border-bottom:1px solid #CCC; padding:22px 10px 15px 10px; margin:0 12px 0 25px}
+.w786 .culture-text span{ float:left; width:325px; font: bold 16px/30px "微软雅黑"; color:#000}
+.w786 .culture-text a{font: bold 16px/30px "微软雅黑"; color:#000}
+.w786 .culture-text div{ float:left; width:325px; font:16px/20px "微软雅黑"; color:#7b7b7b}
+
+
+
+
+.w786 .Lj-stay{ float:left; width:784px; height:196px; border:1px solid #CCC; background:#f2ede9}
+.w786 .Lj-stay .stay-top{ float:left; width:784px; height:42px}
+.w786 .Lj-stay .stay-right{ float:right;}
+.w786 .Lj-stay .stay-top span{ float:left; font:bold 16px/40px "微软雅黑"; color:#000; padding-right:20px;letter-spacing:2px}
+.w786 .Lj-stay .stay-top a{ float:left;font: 14px/40px "微软雅黑"; color:#666; margin-right:30px;}
+.w786 .Lj-stay .stay-text{ float:left; width:760px; padding-left:24px}
+.w786 .Lj-stay .stay-text li{ float:left; width:145px; padding-right:4px}
+.w786 .Lj-stay .stay-text span{ float:left; width:145px; text-align:center}
+.w786 .Lj-stay .stay-text a{ float:none;font:14px/45px "微软雅黑"; color:#666;}
+
+/*Lj-NewList====================================================*/
+.Lj-news-title{ float:left; width:786px;height:33px;}
+.Lj-news-title span{ float:left; height:33px; font:26px/30px "微软雅黑"; color:#8b0000}
+.Lj-news-title span.love{float:left; width:61px; height:33px; background:url(../images/icon_05_01.jpg) no-repeat; padding:0 0 0 77px; font:26px/30px "微软雅黑"; color:#8b0000}
+.Lj-news-title span.Cultural{float:left; width:61px; height:33px;  background:url(../images/icon_06_01.jpg) no-repeat;padding:0 0 0 77px; font:26px/30px "微软雅黑"; color:#8b0000}
+.Lj-news-title div{ float:left; font:14px/33px "微软雅黑"; color:#000;padding-left:12px; letter-spacing:2px}
+.Lj-news-text{ float:left; width:786px;}
+.Lj-news-text li{ float:left; width:764px; padding:20px 22px 20px 0; border-bottom:1px solid #CCC;}
+.Lj-news-text dl{ float:none; margin-left:20px}
+.Lj-news-text dt,.Lj-news-text a{ font: bold 16px/45px "微软雅黑"; color:#000}
+.Lj-news-text dd{ font:14px/20px "微软雅黑"; color:#7b7b7b}
+.Lj-news-text span{ float:left; width:150px; height:95px; border:2px solid #e6ded3; margin-right:20px}
+.Lj-news-text span:hover{ border:2px solid #f2e6da}
+.Lj-news-page{ float:left; width:786px; padding:10px 0 10px 0; text-align:center; font:14px/30px "微软雅黑"; color:#000}
+.Lj-news-page a{ float:none;font:14px/30px "微软雅黑";color:#7b7b7b; padding:0 10px 0 10px}
+.Lj-news-page .select{ float:none; width:40px; height:18px; border:1px solid #ccc}
+
+/*Lj-NewList-Minute====================================================*/
+.Lj-News-Minute{ width:700px; margin:0 auto;}
+.Lj-News-Minute .Minute-title{float:left;width:700px; padding:50px 0 15px 0; text-align:center}
+.Lj-News-Minute .Minute-title h1{ width:700px; font:24px/50px "微软雅黑"; color:#000}
+.Lj-News-Minute .Minute-title span{ float:left; width:350px; font:10px/20px "微软雅黑"; color:#828282}
+.Lj-News-Minute .Minute-title span.source{ text-align:right;width:340px; padding-right:10px}
+.Lj-News-Minute .Minute-title span.time{ text-align:left; width:330px; padding-left:20px}
+.Lj-News-Minute .Minute-text{ float:left; width:700px;padding:30px 0 30px 0; border-top: 1px solid #CCC; border-bottom:1px solid #CCC; font:14px/28px "微软雅黑"; color:#000;}
+.Lj-News-Minute .Minute-text a{ float:none;font:14px/28px "微软雅黑"; color:#000;}
+.Lj-News-Minute .Minute-text img{ float:none; text-align:center}
+.Lj-News-Minute .Minute-text span.txt{ float:left; width:700px; text-align:center; padding:10px 0 10px 0}
+.Lj-News-Minute .Minute-paging{ float:left; width:690px; padding:0 10px 20px 0}
+.Lj-News-Minute .Minute-paging span{ float:right}
+.Lj-News-Minute .Minute-paging a{ float:left; margin-left:30px; font:14px/40px "微软雅黑"; color:#7d7d7d}
+
+/*Lj-NewList-Minute====================================================*/
+.Lj-impression{ float:left; width:786px;}
+.Lj-impression .impression-img{float:left; width:770px;height:470px; border:1px solid #666; margin-top:15px; background:#efeff1; padding:47px 7px 48px 7px; position:relative; overflow:hidden}
+.Lj-impression .clickL{ float:left; width:52px; height:53px; position:absolute; top:240px; left:40px; cursor:pointer; z-index:1000}
+.Lj-impression .clickR{ float:left; width:52px; height:53px;position:absolute; top:240px; right:35px; cursor:pointer;z-index:1000}
+.Lj-impression .impression-con{ float:left; width:770px; height:470px; text-align:center;}
+.Lj-impression .impression-con a{ float:none;}
+.Lj-impression .pocity { opacity :0; filter: alpha(opacity=0); zoom: 1; }
+.Lj-impression .Lj-take{ float:left; width:726px; padding:20px 30px 10px 30px}
+.Lj-impression .Lj-take span{ float:left; width:726px; font:14px/30px "微软雅黑"; color:#000}
+.Lj-impression .Lj-take div{ float:left; width:726px;font:14px/28px "微软雅黑"; color:#7e7e7e;border-bottom:1px solid #CCC; padding-bottom:20px}
+.Lj-impression .Minute-paging{ float:left; width:726px; padding:0 30px 20px 30px}
+.Lj-impression .Minute-paging span{ float:right}
+.Lj-impression .Minute-paging a{ float:left; margin-left:30px; font:14px/40px "微软雅黑"; color:#7d7d7d}
+
+
+/*Lj-Video====================================================*/
+.Lj-video{ float:left; width:786px;}
+.Lj-video .video-area{ float:left; width:736px; height:490px; background:#000; margin-top:15px; padding:8px 25px 72px 25px}
+.Lj-video .video-area span{ float:left; width:736px; font:16px/50px "微软雅黑"; color:#fefefe; text-align:center;letter-spacing:2px}
+.Lj-video .video-area div{ float:left; width:736px; height:450px}
+.Lj-video .video-list{ float:left; width:784px; border:1px solid #CCC; margin-top:8px}
+.Lj-video .video-more,.Lj-video .video-text{ float:left; width:784px;}
+.Lj-video .video-more span{ float:right}
+.Lj-video .video-more a{ float:left; font:12px/30px "微软雅黑"; color:#000}
+.Lj-video .video-text li{ float:left; width:125px; padding:5px 0 0 25px}
+.Lj-video .video-text span{ float:left; width:125px; padding:5px 0 6px 0; text-align:center}
+.Lj-video .video-text a{ font:14px/20px "微软雅黑"; color:#000;}
+
+/*Lj-Love======================================================*/
+.Lj-Love{ float:left; width:786px; padding-top:10px}
+.Lj-Love dl{float:left; width:786px;}
+.Lj-Love dt{float:left;width:786px; padding-top:10px; text-align:center; border-bottom:2px solid #d7d2cc}
+.Lj-Love span{ float:none; width:60px; height:18px; cursor:pointer}
+.Lj-Love dd{ float:left; width:726px; padding:20px 30px 0 30px; font:12px/25px "微软雅黑"; color:#7b7b7b; display:block}
+.Lj-Love div{ float:left;width:726px; font:12px/25px "微软雅黑"; color:#7b7b7b;}
+
+/*Lj-Cultural-Periodicals==========================================*/
+.Lj-Cultural{ float:left; width:786px;}
+.Lj-Cultural .Cultural-Text{ float:left; width:786px; padding-top:31px; display:none}
+.Lj-Cultural .Cultural-Text .Text1{ float:left; width:282px; height:423px;}
+.Lj-Cultural .Cultural-Text .Text1 img{ float:left; width:282px; height:363px}
+.Lj-Cultural .Cultural-Text .Text1 span{ float:left}
+.Lj-Cultural .Cultural-Text .Text1 div{ float:left; width:282px; font:14px/60px "微软雅黑"; color:#000; text-align:center}
+.Lj-Cultural .Cultural-Text .Text2 { float:left; width:444px; padding:0 30px 0 30px;font:14px/20px "微软雅黑"; color:#000;}
+.Lj-Cultural .Cultural-Text .Text2 a{ float:left;font:14px/20px "微软雅黑"; color:#000;}
+.Lj-Cultural .Cultural-li{ float:left;width:786px; border-top:1px solid #ccc}
+.Lj-Cultural .Cultural-li img{ float:left; width:81px; height:104px}
+.Lj-Cultural .Cultural-li li{ float:left; width:85px; padding:22px 0 0 42px}
+.Lj-Cultural .Cultural-li div{ float:left; width:81px; padding:2px;cursor:pointer}
+.Lj-Cultural .Cultural-li .Tural{ background:#897159}
+.Lj-Cultural .Cultural-li span{ float:left; width:85px; text-align:center; padding-top:10px;}
+.Lj-Cultural .Cultural-li a{ float:none; font:14px/20px "微软雅黑"; color:#000}
+
+
+/*LJ_talk ===========================================================*/
+.LJ_talk{ float:left; width:1105px; background:#fff; padding:0 20px}
+.talk_header{ float:left;width:1105px;height:120px}
+.talk_logo{ float:left; width:227px;height:120px; padding-right:4px; position:relative}
+.talk_logo span{ position:absolute; top:-14px;}
+.talk_ul{ float:left; width:874px; padding-top:22px}
+.talk_div{ float:left; width:590px;}
+.talk_nav{ float:left; width:590px;height:33px; padding-bottom:6px}
+.talk_nav a{ float:left; width:117px;height:33px; background:#715f53; margin-right:5px; font: bold 18px/33px "Myriad Pro"; color:#fefefe; text-align:center}
+.talk_nav a.nav_one{ float:left; width:102px}
+.talk_nav a.nav_two{ float:left; width:127px}
+.talk_nav a.nav_there{ float:left; width:132px}
+.talk_nav a.nav_speed{ background:#ff882a}
+.header_text{ float:left; width:580px;height:38px; background:#b8b1ab; padding:6px 0 0 5px}
+.header_text li{ float:left; width:105px; margin-right:5px; height:32px; padding-right:5px; display:inline}
+.header_text span{ float:left; width:28px; padding-right:5px;}
+.header_text p{height:88px;font:12px/16px "Myriad Pro"; color:#000;}
+.header_border{ float:left; width:585px; margin-top:4px; border-bottom:1px solid #533e2d}
+.header_img{ float:left; width:282px; padding-left:2px}
+.talk_cen{ float:left;width:1105px; padding:10px 0}
+.talk_left{ float:left; width:520px; padding-bottom:20px}
+.left_flash{ float:left; width:520px;height:335px; position:relative}
+.left_flash_btn{ float:left; width:520px;height:50px; position:absolute; bottom:0px; background:#28160a;filter:alpha(opacity=50);-moz-opacity:0.5;
+	-khtml-opacity: 0.5;opacity: 0.5;}
+.flash_left{ float:left;}
+.flash_right{ float:right}
+.left_flash .container{ float:left; width:520px; height:355px;overflow: hidden;}
+.left_flash .container-list{ float:left; width:30000px}
+.talk_list{ float:left; width:488px; border:1px solid #9c9c9c; margin-top:12px; padding:15px; background:#eee}
+.talk_list span.list_title{ float:left; width:488px; text-align:center;font:30px/35px "Myriad Pro"; color:#19673d; border-bottom:1px solid #614e3f; padding-bottom:20px; margin-bottom:10px}
+.talk_list li{ float:left; width:448px;}
+.talk_list img{ float:left; width:30px}
+.talk_list span.list_text{ float:left; width:400px;font:16px/35px "Myriad Pro"; color:#040404}
+.talk_list  a{ float:left;font:16px/35px "Myriad Pro"; color:#040404}
+.talk_img{ float:left;margin-top:12px; width:520px;}
+.talk_img a{ float:left; margin-bottom:10px}
+.talk_right{ float:left; width:570px; padding:0 0 20px 15px}
+.talk_right_text{ float:left; width:570px; border-top:1px solid #99897c;}
+.talk_title{ float:left; width:550px; padding:0 10px; min-height:1250px}
+.talk_title span{ float:left; width:550px; padding:20px 0; font:35px/40px "Calibri"; color:#014073}
+.talk_title div{ float:left; width:550px; font:18px/30px "Myriad Pro"; color:#040404;}
+.talk-news-page{ float:left; width:570px; padding:10px 0 10px 0; text-align:center; font:14px/30px "微软雅黑"; color:#000; border-top:1px solid #8f8a86}
+.talk-news-page a{ float:none;font:14px/30px "微软雅黑";color:#7b7b7b; padding:0 10px 0 10px}
+.talk-news-page .select{ float:none; width:40px; height:18px; border:1px solid #ccc}
+.talk_video{ float:left; width:1025px; padding:75px 40px; background:#000}
+.talk_cen .video-list{ float:left; width:1103px; border:1px solid #CCC; margin-top:8px}
+.talk_cen .video-more,.talk_cen .video-text{ float:left; width:1103px;}
+.talk_cen .video-more span{ float:right}
+.talk_cen .video-more a{ float:left; font:12px/30px "微软雅黑"; color:#000}
+.talk_cen .video-text li{ float:left; width:125px; padding:5px 0 0 25px}
+.talk_cen .video-text span{ float:left; width:125px; padding:5px 0 6px 0; text-align:center}
+.talk_cen .video-text a{ font:14px/20px "微软雅黑"; color:#000;}
+.talk-footer{ float:left; width:1175px; height:145px; padding:35px 0 20px 0; background:url(../images/icon_01_32.jpg) no-repeat 60px 55px}
+.talk-footer .footer-top{ float:left; width:1175px; height:20px;font:14px/20px "微软雅黑"; color:#666; text-align:center; padding:25px 0 25px 0}
+.talk-footer .footer-top a{ float:none; font:14px/20px "微软雅黑"; color:#666; padding:0 15px 0 15px}
+.talk-footer .footer-text{ float:left; width:935px; padding:25px 0 0 240px}
+.talk-footer .footer-in{ float:left; width:650px; text-align:center; font:12px/30px "Calibri"; color:#848484}
+.talk-footer .footer-img{ float:left; margin-left:40px;width:163px;}
+.talk-footer .footer-img img{ float:left;margin-right:6px}
+.talk_IMG{ float:left;width:1021px; padding:75px 40px; border-top:1px solid #6d6d6d;border-bottom:1px solid #6d6d6d;border-left:2px solid #6d6d6d;border-right:2px solid #6d6d6d; background:#efeff1; position:relative}
+.talk_IMG .impression-con{ float:left; width:1021px; text-align:center;}
+.talk_IMG .clickL{ float:left; width:52px; height:53px; position:absolute; top:340px; left:60px; cursor:pointer; z-index:1000}
+.talk_IMG .clickR{ float:left; width:52px; height:53px;position:absolute; top:340px; right:55px; cursor:pointer;z-index:1000}
+.talk_IMG .pocity { opacity :0; filter: alpha(opacity=0); zoom: 1; }
+.talk_page_list{ float:left; width:570px}
+.talk_page_list li{ float:right; width:560px; padding:10px 5px; border-top:1px solid #8f8a86}
+.talk_page_list a{font:35px/40px "Calibri"; color:#014073}
+.talk_page_list dt{ padding-top:10px}
+.talk_page_list dd{ font:14px/20px "Myriad Pro"; color:#040404; padding:10px 0 20px}
+.talk_page_list dl{ float:none}
+.talk_page_list span{ float:right;width:175px; padding:20px 20px 20px 0}
+
+/*online ===================================================*/
+.online{ float:left; width:786px}
+.online_title{ float:left; width:756px; padding:20px 0 20px 30px; border-bottom:1px solid #414141}
+.online_title p{ float:left; width:120px; font: bold 14px/25px "宋体"; color:#010000}
+.online_title dl{ float:left; width:220px; display:block;}
+.online_title dt{ float:left; font:12px/25px "微软雅黑"; color:#000; padding-right:5px}
+.online_input{ float:left; width:150px;height:23px; border:1px solid #dadada; border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;-o-border-radius:3px;-webkit-border-radius:3px}
+.online_img{ float:left;width:756px;  padding:35px 0 35px 30px;}
+.online_title a{ float:left; width:80px;height:25px; border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;-webkit-border-radius:4px; background:#e43b3e; font:18px/25px "微软雅黑"; color:#fff; text-align:center}
+.online_text{ float:left; width:666px; padding-left:120px}
+.online_text h3{ float:left; width:666px; font:34px/75px "微软雅黑"; color:#055e37}
+.online_span{ float:left; width:666px; font:23px/40px "微软雅黑"; color:#000}
+.online_text dl{ float:left; width:666px; padding-top:10px}
+.online_text dt{ float:left; width:185px;}
+.online_text dd{ float:left; width:481px}
+.online_text p{ float:left; width:70px; font:12px/22px "微软雅黑"; color:#000}
+.online_check{ float:left; width:95px;height:20px;border:1px solid #dadada;border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;-o-border-radius:3px;-webkit-border-radius:3px}
+.online_text em{ float:left; font:12px/22px "微软雅黑"; color:#909090}
+.link_input{ float:left; width:200px}
+.online_font{ float:left; width:666px; padding-top:20px; font: bold 12px/25px "微软雅黑"; color:#ff0000}
+.online_btn{ float:left; width:666px; padding-top:30px}
+.online_btn a{ float:left; width:105px;height:30px;border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;-webkit-border-radius:4px; background:#e43b3e; font:18px/30px "微软雅黑"; color:#fff; text-align:center; margin-left:160px}
+.online_span i{ float:left; font-style:normal}
+.online_span a{ float:left; margin-top:12px}
+.online_num{ float:left; width:35px;height:20px;border:1px solid #dadada;border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;-o-border-radius:3px;-webkit-border-radius:3px; margin-top:8px; text-align:center; color:#999}
+.online_inquiry{float:left; width:570px; padding:0 108px}
+.online_inquiry h3{ float:left; width:570px; font:34px/120px "微软雅黑"; text-align:center; color:#055e37}
+.inquiry_th{ float:left; width:570px;height:45px; border-bottom:1px solid #c4c4c4}
+.table_th{ float:left; width:570px; font:14px/45px "微软雅黑"; color:#000}
+.inquiry_tab{ float:left; width:570px;border-bottom:1px solid #c4c4c4}
+.table_tab{ float:left; width:570px; font:12px/35px "微软雅黑"; color:#000; padding: 5px 0}
+.inquiry_span{ float:left; width:540px;font:14px/35px "微软雅黑"; color:#000; padding:10px 0 10px 30px}
+.inquiry_font{ float:left; width:540px;font: bold 12px/25px "微软雅黑"; color:#ff0000; padding:0 0 0 30px}
+
+/*Lj-Bar======================================================*/
+.Lj-Bar-List{ float:left; width:786px; border-top:2px solid #dad5d1; margin-top:20px}
+.Lj-Bar-List li{ float:left; width:786px; padding:30px 0; border-bottom:2px solid #dad5d1;}
+.Bar-flash{ float:left; padding:0 40px 0 12px; width:176px;height:160px}
+.Bar-big{ float:left; width:176px;height:127px}
+.Bar-circle{ float:left; width:176px;height:23px; margin:5px 0}
+.picarea{ float:left; width:156px;height:23px; position:relative; overflow:hidden;list-style-type: none;}
+.Bar-circle .clickL,.Bar-circle .clickR{ float:left;}
+.imgbox{ float:left; width:100%; position:absolute; overflow:hidden; left:0px; top:0px}
+.imgbox a{ float:left; margin:0 2px}
+.imgbox img{ float:left; width:27px;height:23px}
+.Bar-Text{ float:left; width:558px;height:160px;}
+.Bar-h1{ float:left; width:558px;height:30px}
+.Bar-h1 a{ float:left; font:bold 14px/30px "微软雅黑"; color:#000}
+.Bar-Txt{ float:left; width:540px; padding:10px 0 2px; font:12px/22px "微软雅黑"; color:#000; padding-right:18px}
+.Bar-Text-i{ float:left; width:558px; font:12px/25px "微软雅黑"; color:#0081c4;Font-style:normal}
+
+/*Lj-stay========================================================*/
+.Lj-stay-two{float:left; width:786px; margin-top:10px}
+.Lj-option{ float:left; width:746px; padding:10px 20px; border-bottom:2px solid #dad5d1;}
+.Lj-option dl{ float:left; width:746px;}
+.Lj-option .potion-style dt{ float:left; font:14px/30px "微软雅黑"; color:#010000}
+.Lj-option .potion-style dd{ float:left;font:14px/30px "微软雅黑"; color:#767676}
+.Lj-option .potion-style a{ margin:0 10px;font:14px/30px "微软雅黑"; color:#767676}
+.Lj-option .potion-term{ float:left; padding:0 10px; font:14px/20px "微软雅黑"; color:#010000; border:1px dotted #767676; border-radius:2px; -moz-border-radius:2px; -ms-border-radius:2px; -o-border-radius:2px; -webkit-border-radius:2px; margin-top:2px;}
+.Lj-option .potin-f{ float:left; margin-left:10px; font:16px/23px "微软雅黑"; color:#c1c1c1;Font-style:normal}
+.Lj-option .potion-d{ float:left; border:1px dotted #c32a0b; border-radius:2px; -moz-border-radius:2px; -ms-border-radius:2px; -o-border-radius:2px; -webkit-border-radius:2px; font:14px/23px "微软雅黑"; color:#c32a0b; margin:0 10px}
+.Lj-option .potion-d p{ float:left; padding-left:10px;}
+.Lj-option .potion-d a{ float:left; margin-left:15px;font: bolder 16px/23px "微软雅黑"; color:#c32a0b;}
+.Lj-option .condition{ margin-top:10px}
+.potion-list{ float:left; width:750px; padding:20px 18px 0}
+.potion-Text{ float:left; width:750px;}
+.potion-img{ float:left; width:176px; height:160px; padding-right:20px}
+.stay-Text{ float:left; width:350px;height:160px;}
+.Bar-h1{ float:left; width:350px;height:30px}
+.Bar-h1 a{ float:left; font:bold 14px/30px "微软雅黑"; color:#000}
+.Bar-Txt{ float:left; width:350px; padding:10px 0 10px; font:12px/20px "微软雅黑"; color:#000;}
+.Bar-Text-i{ float:left; width:350px; font:12px/20px "微软雅黑"; color:#0081c4;Font-style:normal}
+.stay-a{ float:left; margin:6px 2px 0;}
+.stay-one{ margin-left:20px}
+.stay-place{ float:left; padding:40px 0 0 65px}
+.stayPrize{ float:left; width:204px;height:160px; text-align:center}
+.staySign{Font-style:normal; float:left; font-size:14px; font-family:"微软雅黑"; color:#000}
+.stayNum{ float:left; font: bold 45px/40px "微软雅黑"; color:#ff0000}
+.stayRise{ float:left; font-size:10px; font-family:"微软雅黑"; color:#000; padding-top:25px;Font-style:normal;}
+.stayList{ float:left; width:750px; margin-top:5px; border-bottom:2px solid #dad5d1; border-top:2px solid #dad5d1;}
+.stay-top{ float:left; width:750px;height:22px; background:#ececec;}
+.stay-table{ font-size:12px; font-family:"微软雅黑"; color:#000; text-align:center}
+.stayList li{ float:left; width:750px;height:30px; border-bottom:1px dotted #dad5d1}
+.stay-li{ font-size:12px;font-family:"微软雅黑"; color:#898989; text-align:center; line-height:30px}
+.stay-li .font{ color:#ff0000}
+.stay-develop{ float:left; width:750px;height:16px; padding:6px 0}
+.stay-develop a{ float:right;}
+.stay-develop p{ float:left; font:12px/16px "微软雅黑"; color:#898989}
+.stay-develop i{ float:left}
+.stayNone{ float:left; width:750px; display:none}
+.stay-three{ float:left; width:750px; padding:0 18px}

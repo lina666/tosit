@@ -9,7 +9,7 @@
 <tag>
     <name>getchannal</name>
     <tag-class>com.tosit.web.tag.ShowChannal</tag-class>
-    <body-content>empty</body-content>
+    <body-content>scriptless</body-content>
     <attribute>
         <name>channalId</name>
          <required>true</required>

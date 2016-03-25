@@ -39,6 +39,7 @@
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">  
         <property name="dataSource" ref="dataSource" />  
          <property name="mapperLocations" value="classpath:com/tosit/web/mapper/*.xml"></property>
+         <property name="typeAliasesPackage" value="com.tosit.web.entity"></property>
     </bean> 
     
     
